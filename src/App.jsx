@@ -49,6 +49,7 @@ function App() {
     return (
         <div className="App" onClick={handleClick}>
             <h1>React Challenge</h1>
+            <p>Clique em qualquer lugar da tela para criar um círculo</p>
             <div className="buttons">
                 <button onClick={handleUndo}>Desfazer</button>
                 <button onClick={handleRedo}>Refazer</button>
