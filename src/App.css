@@ -1,0 +1,49 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #c6c6c6;
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+}
+
+.buttons {
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-right: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+button:last-child {
+    margin-right: 0;
+}
+button:active {
+    transform: translate(0, 4px);
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+
+    position: absolute;
+}
